@@ -57,6 +57,11 @@ Each slice of the main list is being tested with all the slices in it's section'
 
 What makes this algorithm strong and fast is the priority order and the pizza sectioning.
 
+To run the program with the input file example.in open the file Main.java and change the line:
+```
+ops.readFile("example.in");
+```
+
 ## Authors
 
 * [SADIK Anass](https://github.com/anass05)
