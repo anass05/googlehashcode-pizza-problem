@@ -6,7 +6,6 @@ This is our solution to the google hash code pizza problem, written in java
 
 The total score we achieved using this algorithm was 906,770 
 
-```
 **Example**: 15 points
 
 **Small**: 35 points
@@ -15,25 +14,24 @@ The total score we achieved using this algorithm was 906,770
 
 **Big**: 862 971 points
 
-```
 
 ## How does it work?
 
-# * Cutting the pizza
+#* Cutting the pizza
 
 The first step is getting all possible slices and putting them in a main list while satisfying the three constraints.
 
-# * Prioritizing the slices
+#* Prioritizing the slices
 
 The second step is prioritizing the slices, which means giving each slice a priority number according to how much mushrooms and tomatoes it has and how big it is.
 
 The slices with the biggest size and least number of ingredients have the highest priority number.
 
-# * Sorting the slices
+# Sorting the slices
 
 The slices are sorted from highest priority to the lowest one.
 
-# * Dividing the pizza
+# Dividing the pizza
 
 In order to make the program run faster we virtually divided the pizza into five sections.
 
